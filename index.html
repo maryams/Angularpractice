@@ -8,8 +8,8 @@
   <body ng-controller ="StoreController as store">
     <div class="product row">
       <h3>
-        
-        <em class="pull-right"></em>
+        {{store.product.name}}
+        <em class="pull-right">{{store.product.price}}</em>
       </h3>
     </div>
   </body>
